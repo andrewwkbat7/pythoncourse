@@ -1,0 +1,30 @@
+fhand = open('mbox-short.txt')
+for line in fhand
+    line = line.rstrip()
+
+
+fhand = raw_input('Enter the file name:')
+try:
+    fhand = open(fname)
+except:
+    print 'file cannot be opened', fname
+    exit ()
+
+
+counts[words]= counts.get(word,0) +1
+
+d = dict()
+d['csev'] = 2
+d['cwen'] = 4
+for (k,w) in d.items():
+    print k,v
+
+tups = d.items()
+print tups
+
+tups = sorted(d.items())
+
+tups.sort(reverse=True)
+
+fhand = open(romeo.txt)
+counts = dict()
